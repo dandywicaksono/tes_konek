@@ -31,7 +31,8 @@
           ?>
 
 	     <?php
-
+		require_once('mysqlitest.php');
+		  
 		$panjang  = $_POST['panjang'];
 		$lebar    = $_POST['lebar'];
 
